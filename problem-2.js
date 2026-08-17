@@ -1,3 +1,4 @@
+// BMI calculator
 
 const calculateBMI = (weight, height) =>{
     if(weight <= 0 || height <= 0 || typeof weight !== 'number' || typeof height !== 'number'){
